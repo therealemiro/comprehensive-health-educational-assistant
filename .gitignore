@@ -1,0 +1,49 @@
+# Environment Variables
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Generated Data and Models
+data/
+backend/data/
+models_cache/
+backend/models_cache/
+*.faiss
+*.pkl
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.bin
+
+# Logs
+*.log
+
+# Local Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating System and IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
